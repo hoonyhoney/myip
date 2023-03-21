@@ -11,7 +11,7 @@
 3. enter your ip address looking for 
 4. click "search icon"
 ```
-### ✨connec-to ===>> [link](http://35.168.7.29/my-ip-address)
+### ✨connect-to ===>> [web-link](http://35.168.7.29/my-ip-address)
 
 ## Author
 

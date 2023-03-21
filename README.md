@@ -1,4 +1,8 @@
-<h1 align="center">Welcome to 1 👋</h1>
+<h1 align="center">Welcome to "myip" 👋</h1>
+
+
+![my ip](https://user-images.githubusercontent.com/57176544/226506134-1268fbcc-58e7-4606-98b0-aebc38e2e12c.png)
+
 <p>
   <a href="https://www.npmjs.com/package/1" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/1.svg">
@@ -14,18 +18,15 @@
   </a>
 </p>
 
-> 1
+## How to use
 
-### 🏠 [Homepage](1)
-
-### ✨ [Demo](1)
-
-## Install
-
-```sh
-1
 ```
-
+1. connect to website
+2. check your current ip address & country name 
+3. enter your ip address looking for 
+4. click "search icon"
+```
+### ✨ [link]("http://35.168.7.29/my-ip-address")
 
 ## Author
 

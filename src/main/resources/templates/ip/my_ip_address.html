@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <link rel="stylesheet" th:href="@{static/css/my_ip_address.css}">
+</head>
+<body>
+
+
+<div class="request">
+    <p class="title">IP 주소 검색</p>
+    <form id="ip_serach" method="post">
+        <input class="search" name="ip" placeholder="    IP 주소 입력" maxlength="15"/>
+
+        <button class="btn">🔍</button>
+    </form>
+</div>
+
+<div class="result">
+    <p class="ip-address" th:text="${myIpInfo.ip}"></p>
+    <span class="country-code">국가코드 :</span><span class="country-code" th:text="${myIpInfo.countryCode}"></span>
+    <div>
+        <span class="country-name">국가명 :</span><span class="country-name" th:text="${myIpInfo.countryName}"></span>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        var MSG = "[[${redirectMsg}]]";
+        if(MSG != ""){
+            alert(MSG)
+        }
+        $(".btn").click(function () {
+            var ip_addr = $(".search").val();
+            if (ip_addr.length == 0) {
+                alert("ip 정보를 입력하세요");
+                return false;
+            }
+
+            var req = "/my-ip-address";
+            $("#ip_serach").attr("action", req);
+            $("#ip_serach").submit();
+        });
+    });
+
+
+</script>
+
+
+</body>
+</html>

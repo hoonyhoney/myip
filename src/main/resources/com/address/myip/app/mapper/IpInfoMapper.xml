@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.address.myip.app.mapper.IpInfoMapper">
+    <select id="selectCountryInfo" parameterType="IpInfoVO" resultType="IpInfoVO">
+        <![CDATA[
+        SELECT
+                COUNTRY_CODE
+                ,COUNTRY_NAME
+        FROM    IP_TABLE
+        WHERE
+                IP_START_INT <= #{ipLong}
+          AND   IP_END_INT >= #{ipLong}
+            ]]>
+    </select>
+</mapper>

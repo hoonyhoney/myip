@@ -16,7 +16,7 @@
 ## connect
 
 ```sh
-http://35.168.7.29/my-ip-address
+<a href="https://github.com/hoonyhoney/myip" target="_blank">
 ```
 
 ## Author
@@ -24,10 +24,3 @@ http://35.168.7.29/my-ip-address
 👤 **DONGHUN LEE**
 
 * Github: [@hoonyhoney](https://github.com/hoonyhoney)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

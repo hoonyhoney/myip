@@ -16,7 +16,7 @@
 ## connect
 
 ```sh
-<a href="https://github.com/hoonyhoney/myip" target="_blank">
+https://github.com/hoonyhoney/myip
 ```
 
 ## Author

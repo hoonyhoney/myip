@@ -12,12 +12,11 @@
 
 ### 🏠 [Homepage](https://github.com/hoonyhoney/myip)
 
-### ✨ [Demo](http://35.168.7.29/my-ip-address)
 
-## Install
+## connect
 
 ```sh
-connect http://35.168.7.29/my-ip-address
+http://35.168.7.29/my-ip-address
 ```
 
 ## Author
